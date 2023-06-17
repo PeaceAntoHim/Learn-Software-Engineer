@@ -1,0 +1,27 @@
+{
+  "name": "pg-appium-inversify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium-adb": "^8.18.0",
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/appium-adb": "^9.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "webdriverio": "^8.8.1"
+  }
+}

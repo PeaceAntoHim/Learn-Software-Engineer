@@ -1,0 +1,10 @@
+version: "1.0.0"
+services:
+  tingtong-api-gateway:
+    image: "deno-api-gateway:server"
+    container_name: deno-api-gateway
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - CONFIG={"4d56eaefbc354747bd58538b5cc29f4e":{"APP_ID":"YOUR_APP_ID","REST_API_KEY":"YOUR_REST_API_KEY","INCLUDED_SEGMENTS":"Subscribed Users"}}

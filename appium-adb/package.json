@@ -1,0 +1,23 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "github-tests": "mocha -r ts-node/register test/githubApp.test.ts",
+    "tabular-tests": "mocha -r ts-node/register test/tabularApp.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/appium-adb": "^9.10.0",
+    "@types/mocha": "^10.0.1",
+    "@wdio/cli": "^8.3.11",
+    "appium-adb": "^9.10.24",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "webdriverio": "^8.6.9"
+  }
+}

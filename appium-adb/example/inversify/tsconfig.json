@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "types": [
+      "reflect-metadata",
+      "node"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "experimentalDecorators": true,
+    "pretty": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    // "strict": true,                        
+    "skipLibCheck": true,
+  },
+}

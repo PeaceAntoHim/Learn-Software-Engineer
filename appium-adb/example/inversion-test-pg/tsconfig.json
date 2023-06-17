@@ -1,0 +1,15 @@
+{
+   "compilerOptions": {
+     "target":"es2016",    
+     "types": ["reflect-metadata", "node"],      
+     "module": "CommonJS",    
+     "moduleResolution": "node",
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,              
+     "esModuleInterop": true,                        
+     "forceConsistentCasingInFileNames": true,           
+     // "strict": true,                        
+     "skipLibCheck": true                         
+   },
+ }
+ 

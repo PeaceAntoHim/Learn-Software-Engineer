@@ -1,0 +1,10 @@
+{
+  "NEED_TOKEN": [
+    "/bc-msg",
+    "/tg-msg",
+    "/list-devices/all",
+    "/list-devices/subscribed",
+    "/list-devices/unsubscribed",
+    "/devices/remove-unsubscribed"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "inversify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "register": "node -r ts-node-esm/register src/index.ts 'src/*.ts'",
+    "start": "ts-node --esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@u4/adbkit": "^4.1.18",
+    "@wdio/cli": "^8.8.0",
+    "better-sqlite3": "^8.2.0",
+    "dotenv": "^16.0.3",
+    "image-js": "^0.35.3",
+    "inversify": "^6.0.1",
+    "p-queue": "^7.3.4",
+    "pino": "^8.11.0",
+    "qrcode": "^1.5.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^5.0.3",
+    "webdriverio": "^8.6.9"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.3",
+    "@types/node": "^18.15.3",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "inversion-test-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@u4/adbkit": "^4.1.18",
+    "image-js": "^0.35.3",
+    "inversify": "^6.0.1",
+    "p-queue": "^7.3.4",
+    "pino": "^8.11.0",
+    "qrcode": "^1.5.1",
+    "reflect-metadata": "^0.1.13",
+    "webdriverio": "^8.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}

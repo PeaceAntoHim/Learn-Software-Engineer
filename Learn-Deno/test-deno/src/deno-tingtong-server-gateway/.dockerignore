@@ -1,0 +1,6 @@
+.env
+readme.md
+.vscode
+docker-compose.yml
+src/benchmark
+src/test

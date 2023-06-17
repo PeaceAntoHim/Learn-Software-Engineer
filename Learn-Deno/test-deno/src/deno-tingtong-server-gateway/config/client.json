@@ -1,0 +1,13 @@
+{
+  "8032b3ced63b4fdfa8db372ef4e9112c": {
+    "APP_ID": "YOUR_APP_ID_ONESIGNAL",
+    "REST_API_KEY": "YOUR_REST_API_KEY_ONESIGNAL",
+    "INCLUDED_SEGMENTS": "Subscribed Users"
+  },
+
+  "11d0dd6b62d440f383c04f554f56d0a5": {
+    "APP_ID": "YOUR_APP_ID_ONESIGNAL",
+    "REST_API_KEY": "YOUR_REST_API_KEY_ONESIGNAL",
+    "INCLUDED_SEGMENTS": "Subscribed Users"
+  }
+}
